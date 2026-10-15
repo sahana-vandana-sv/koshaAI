@@ -1,3 +1,5 @@
 stage,name,model,split,hardware,n,accuracy,accuracy_ci95,macro_f1,macro_f1_ci95,f1_yes,f1_no,f1_maybe,invalid_rate,ece,run_id
 B0,b0_majority,majority-class,dev,cpu,50,0.5600,"[0.440, 0.700]",0.2393,"[0.204, 0.275]",0.7179,0.0000,0.0000,0.0000,,20261015-152808-b0_majority-dev
 B0,b0_random,stratified-random,dev,cpu,50,0.5800,"[0.440, 0.720]",0.4740,"[0.305, 0.641]",0.6557,0.5161,0.2500,0.0000,,20261015-152810-b0_random-dev
+B0,b0_majority,majority-class,test,cpu,500,0.5520,"[0.508, 0.594]",0.2371,"[0.225, 0.248]",0.7113,0.0000,0.0000,0.0000,,20261015-152905-b0_majority-test
+B0,b0_random,stratified-random,test,cpu,500,0.4400,"[0.396, 0.482]",0.3587,"[0.313, 0.403]",0.5571,0.3242,0.1947,0.0000,,20261015-152914-b0_random-test
