@@ -1,0 +1,17 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.cache/
+mlruns/
+data/raw/
+data/processed/*.jsonl
+models/
+*.safetensors
+*.gguf
+.env
+infra/.terraform/
+infra/*.tfstate*
+.claude/settings.local.json
+.DS_Store

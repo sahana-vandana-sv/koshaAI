@@ -1,0 +1,6 @@
+name: b0_majority
+stage: B0
+engine: majority
+model: majority-class
+train_file: data/processed/train_labeled.jsonl
+hardware: cpu

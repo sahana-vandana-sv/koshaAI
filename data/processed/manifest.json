@@ -1,0 +1,57 @@
+{
+  "train.jsonl": {
+    "n": 21800,
+    "labels": {
+      "maybe": 200,
+      "no": 7608,
+      "yes": 13992
+    },
+    "sha256": "782f62aaa6b397cb932dac473746289d02b3733d88a22dc0871c53dbe5ad82da"
+  },
+  "train_labeled.jsonl": {
+    "n": 450,
+    "labels": {
+      "maybe": 50,
+      "no": 152,
+      "yes": 248
+    },
+    "sha256": "c7d4e3c305380921fc0443de7feb4d71d0f93cb1bc8930bc5c9afc7424bd6fd0"
+  },
+  "dev.jsonl": {
+    "n": 50,
+    "labels": {
+      "maybe": 5,
+      "no": 17,
+      "yes": 28
+    },
+    "sha256": "6b3062630361ec972e8feee41b94c9e0a989e6ce525e381f455abc2d75ea81a6"
+  },
+  "test.jsonl": {
+    "n": 500,
+    "labels": {
+      "maybe": 55,
+      "no": 169,
+      "yes": 276
+    },
+    "sha256": "067a178956a144516c831442a467cfd101dfdc22bdd6862d88a1634c217cc43e"
+  },
+  "shots.jsonl": {
+    "n": 3,
+    "labels": {
+      "maybe": 1,
+      "no": 1,
+      "yes": 1
+    },
+    "sha256": "67c33586fb1a50796a7fa205057f1235103bc6f02b90b336e33dcacad59ce27e"
+  },
+  "medmcqa.jsonl": {
+    "n": 1000,
+    "labels": {
+      "A": 323,
+      "B": 267,
+      "C": 219,
+      "D": 191
+    },
+    "sha256": "842e73ce508c4d5aa1fc017a54be5e1a1063812d5f64400dca712270639a5155"
+  }
+}

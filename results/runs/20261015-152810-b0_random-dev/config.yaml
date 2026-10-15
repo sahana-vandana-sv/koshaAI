@@ -1,0 +1,6 @@
+name: b0_random
+stage: B0
+engine: random
+model: stratified-random
+train_file: data/processed/train_labeled.jsonl
+hardware: cpu
