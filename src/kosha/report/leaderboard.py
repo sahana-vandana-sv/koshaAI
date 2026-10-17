@@ -9,7 +9,8 @@ RUNS = Path("results/runs")
 OUT = Path("results/leaderboard.csv")
 COLUMNS = [
     "stage", "name", "model", "split", "hardware", "n", "accuracy", "accuracy_ci95", "macro_f1",
-    "macro_f1_ci95", "f1_yes", "f1_no", "f1_maybe", "invalid_rate", "ece", "run_id",
+    "macro_f1_ci95", "f1_yes", "f1_no", "f1_maybe", "invalid_rate", "truncated_rate", "ece",
+    "usd_per_1k", "run_id",
 ]  # fmt: skip
 
 

@@ -2,9 +2,11 @@
 name = "kosha"
 version = "0.1.0"
 description = "How close can a self-hosted 4B model on one GPU get to a frontier API?"
-requires-python = ">=3.11,<3.12"
+requires-python = ">=3.11,<3.13"
 dependencies = [
+    "anthropic",
     "datasets>=3.0",
+    "diskcache",
     "numpy",
     "pandas",
     "pyyaml",

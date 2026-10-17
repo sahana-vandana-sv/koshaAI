@@ -1,0 +1,6 @@
+name: f0_sonnet_3shot
+stage: F0
+engine: anthropic_batch
+model: claude-sonnet-5-5
+shots: 3
+hardware: api

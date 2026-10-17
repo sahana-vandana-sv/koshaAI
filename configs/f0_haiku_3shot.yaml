@@ -1,0 +1,6 @@
+name: f0_haiku_3shot
+stage: F0
+engine: anthropic_batch
+model: claude-haiku-5-5
+shots: 3
+hardware: api

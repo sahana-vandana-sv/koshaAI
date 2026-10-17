@@ -1,0 +1,13 @@
+name: s0_qwen35_4b
+stage: S0
+engine: vllm
+model: Qwen/Qwen3.5-4B
+model_path: Qwen/Qwen3.5-4B
+dtype: bfloat16
+shots: 0
+max_tokens: 256
+hardware: L4-24GB
+chat_template_kwargs: {enable_thinking: false}   # thinking stays off for eval (D-002)
+vllm_kwargs:
+  max_model_len: 4096
+  gpu_memory_utilization: 0.90

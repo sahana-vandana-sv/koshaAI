@@ -1,0 +1,66 @@
+{
+  "n": 50,
+  "accuracy": 0.74,
+  "macro_f1": 0.6379832810867293,
+  "per_class_f1": {
+    "yes": 0.8363636363636363,
+    "no": 0.8275862068965517,
+    "maybe": 0.25
+  },
+  "invalid_rate": 0.0,
+  "confusion": {
+    "labels": [
+      "yes",
+      "no",
+      "maybe",
+      "__invalid__"
+    ],
+    "matrix": [
+      [
+        23,
+        0,
+        5,
+        0
+      ],
+      [
+        1,
+        12,
+        4,
+        0
+      ],
+      [
+        3,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  "accuracy_ci95": [
+    0.62,
+    0.86
+  ],
+  "macro_f1_ci95": [
+    0.5190041866028708,
+    0.7571644264398502
+  ],
+  "usd_total": 0.0034548500000000006,
+  "usd_per_1k": 0.069097,
+  "run_id": "20261016-165730-f0_haiku_0shot-dev",
+  "name": "f0_haiku_0shot",
+  "stage": "F0",
+  "model": "claude-haiku-5-5",
+  "split": "dev",
+  "hardware": "api",
+  "parse_modes": {
+    "json": 50
+  },
+  "truncated_rate": 0.0,
+  "errored": 0
+}
